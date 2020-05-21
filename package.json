@@ -1,5 +1,5 @@
 {
-  "name": "co-wechat-enterprise-api",
+  "name": "@wbenxin/co-wechat-enterprise-api",
   "version": "0.0.1",
   "description": "基于 co-wechat/wechat-enterprise-api，微信公共平台企业号版本Node API库 ES6版本",
   "main": "index.js",
