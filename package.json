@@ -11,7 +11,9 @@
     "lib"
   ],
   "scripts": {
-    "doc": "dox -a <./lib/* > API.md"
+    "doc": "dox -a <./lib/* > API.md",
+    "postversion": "npm publish --access=public",
+    "postpublish": "git push && git push --tags"
   },
   "author": "hdumok",
   "license": "ISC",
